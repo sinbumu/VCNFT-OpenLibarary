@@ -1,0 +1,27 @@
+{
+  "name": "vcnft-openlibarary",
+  "version": "1.0.0",
+  "description": "VCNFT 로 서비스를 구현할때, Issuer, verifier, client에서 사용해야 할 함수들에 대해 구현한 오픈소스",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@types/web3": "^1.0.20",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "web3": "^4.16.0"
+  }
+}
