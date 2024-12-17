@@ -6,7 +6,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": ["node_modules/@types"],
+    "moduleResolution": "node",
+    "types": ["node", "jest"] // Jest 타입 추가
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "test/**/*"]
